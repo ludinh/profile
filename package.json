@@ -1,0 +1,23 @@
+{
+  "name": "compress",
+  "version": "1.0.0",
+  "description": "compress LU DINH",
+  "main": "index.js",
+  "scripts": {
+    "test": "'LU-DINH'"
+  },
+  "author": "BTQ",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.2.0",
+    "gsap": "^3.8.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  }
+}
