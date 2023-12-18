@@ -1,0 +1,25 @@
+.loadx{background:url(../images/loading.png) no-repeat center center;}
+.logo::after{background:url(../images/logo.svg) no-repeat center center/contain;}
+.loadx::after{content:'';background:url(../images/circle.png) no-repeat center center;}
+.color-strip{background:url(../images/color-trip.svg) no-repeat center center/cover}
+.small-violin::after{content:'';position:absolute;width:100%;height:100%;top:0;left:0;background:url(../images/violin-dark.png) no-repeat center center/contain;}
+.details-text::after{background:url(../images/violin-dark.png) no-repeat center center/contain;}
+
+/*MASK-CONTENT*/
+.mask-content{-webkit-mask-image:url(../images/mask2.svg);mask-image:url(../images/mask2.svg);}
+
+
+/*PRINT-SHARE*/
+.save-but::before{background:url(../images/print-share/favorite.svg) no-repeat 50% / 80%;}
+.print-but::before{background:url(../images/print-share/print.svg) no-repeat 50% / 80%;}
+.share-but::before{background:url(../images/print-share/share.svg) no-repeat 50% / 80%;}
+
+
+/*ZOOM*/
+.zoom::after{background:rgba(0, 0, 0, 0.1) url(../images/zoom.svg) no-repeat 50%/66%;}
+.close::after, .close-video::after, .close-pics::after, .close-album::after, .close-popup::after, .close-menu::after, .close-360::after{background:url(../images/close.svg) no-repeat 50%/70%;}
+
+/*COMPANY-TEXT*/
+.address{background:url(../images/contact-icon/add.svg) no-repeat center center/contain;}
+.call{background:url(../images/contact-icon/call.svg) no-repeat center center/contain;}
+.email{background:url(../images/contact-icon/email.svg) no-repeat center center/contain;}
